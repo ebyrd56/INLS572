@@ -36,3 +36,56 @@ ul li a {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+.bg-img {
+  background-image: url("images/food_banana_leaf.jpg");
+  height: 50%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#grad {
+  height: 50px;
+  background-image: linear-gradient(to right, darkred, orangered, darkgoldenrod);
+}
+
+.nav-container {
+  background-color: darkolivegreen;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 5%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20em;
+  flex-grow: 1;
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  margin: 2%;
+  padding: 30px;
+}
+
+.home-text {
+   display: block;
+   padding: 3%;
+   margin: 2%;
+   border-style: solid;
+   border-width: 5px;
+   border-color: darkolivegreen;}
+}
