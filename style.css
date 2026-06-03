@@ -42,6 +42,10 @@ ul li a:hover {
   background-color: #111111;
 }
 
+section {
+  display: block;
+}
+
 .bg-img {
   background-image: url("images/food_banana_leaf.jpg");
   height: 50%; 
@@ -53,6 +57,14 @@ ul li a:hover {
 #grad {
   height: 50px;
   background-image: linear-gradient(to right, darkred, orangered, darkgoldenrod);
+}
+
+.footer {
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav-container {
@@ -81,6 +93,11 @@ ul li a:hover {
   padding: 30px;
 }
 
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
 .home-text {
    display: block;
    padding: 3%;
@@ -88,4 +105,24 @@ ul li a:hover {
    border-style: solid;
    border-width: 5px;
    border-color: darkolivegreen;}
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+@media (min-width: 64em) {
+.content-wrapper {
+ flex-direction: row;
+}
+aside { flex: 1; }
+section { flex: 2; }
 }
