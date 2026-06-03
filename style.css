@@ -74,7 +74,7 @@ section {
   justify-content: center;
 }
 
-.wrapper {
+.card-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
