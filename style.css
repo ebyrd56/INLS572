@@ -121,6 +121,11 @@ section {
   margin-right: 40px;
 }
 
+.content-wrapper img {
+  width: 100%;
+  padding-top: 20px;
+}
+
 @media (min-width: 64em) {
 .content-wrapper {
  flex-direction: row;
